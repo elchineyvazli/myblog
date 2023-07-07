@@ -1,0 +1,17 @@
+.textPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+
+    .textPartH1 {
+        font-size: 40px;
+    }
+
+    .textPartP {
+        font-size: 20px;
+    }
+}
