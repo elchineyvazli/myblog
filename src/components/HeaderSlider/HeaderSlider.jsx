@@ -4,9 +4,9 @@ import { useState } from 'react';
 import HeaderSliderItem from './../HeaderSliderItem/HeaderSliderItem';
 
 //! IMAGES
-import image1 from '../../images/alturanVeMen2.jpg'
-import image2 from '../../images/meImage1.jpg'
-import image3 from '../../images/meImage6.jpg'
+import image1 from '../../images/HeaderSliderImages/image1.jpg'
+import image2 from '../../images/HeaderSliderImages/image2.jpg'
+import image3 from '../../images/HeaderSliderImages/image1.jpg'
 
 const HeaderSlider = () => {
     const [clickLeft, setClickLeft] = useState(false)

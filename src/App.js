@@ -3,7 +3,8 @@ import HomePage from './pages/HomePage/HomePage';
 import Navbar from "./components/Navbar/Navbar";
 import Message from "./components/Message/Message";
 import { useContext } from "react";
-import { MessageContext } from "./UseMessage/UseMessage";
+import Footer from './components/Footer/Footer';
+import { MessageContext } from "./ContextFolder/UseMessageContext";
 
 function App() {
   let { messageHeight, messageWidth } = useContext(MessageContext)
@@ -18,6 +19,7 @@ function App() {
         heightValue={messageHeight}
         widthValue={messageWidth}
       />
+      <Footer />
     </>
   );
 }

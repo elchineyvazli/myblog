@@ -10,14 +10,16 @@ const TextPart = ({
     textPartBackgroundColor,
     pDisplay1,
     pDisplay2,
-    borderRadiusValue
+    borderRadiusValue,
+    imageValue
 }) => {
     return (
         <div
             className='textPart'
             style={{
                 backgroundColor: `${textPartBackgroundColor}`,
-                borderRadius: `${borderRadiusValue}`
+                borderRadius: `${borderRadiusValue}`,
+                backgroundImage: `url(${imageValue})`
             }}
         >
             <p

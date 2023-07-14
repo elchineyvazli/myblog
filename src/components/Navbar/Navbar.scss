@@ -1,6 +1,6 @@
 .navbar {
-    max-width: 1510px;
-    width: 100%;
+    max-width: 100%;
+    width: 1510px;
     height: 100px;
     background-color: transparent;
     display: flex;
@@ -11,7 +11,7 @@
     z-index: 99;
     padding: 0 100px;
     justify-content: space-between;
-    background-color: rgba(black, .6);
+    background-color: rgba(purple, .6);
 
     .logoPart {
         display: flex;
@@ -28,6 +28,7 @@
     .navLinks {
         display: flex;
         gap: 30px;
+        position: static;
 
         .link {
             color: rgb(227, 226, 226);
@@ -84,7 +85,7 @@
         }
 
         .hMenu {
-            display: flex;
+            display: none;
             width: 30px;
             height: 30px;
             flex-direction: column;
@@ -95,6 +96,8 @@
                 height: 4px;
                 background-color: white;
                 border-radius: 2px;
+                position: relative;
+                transition: .2s;
             }
         }
     }

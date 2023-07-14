@@ -1,10 +1,10 @@
 import { useContext, useState, useRef } from 'react'
 import './Message.scss'
-import { MessageContext } from '../../UseMessage/UseMessage'
 import { FaRegPaperPlane } from 'react-icons/fa'
 import { LiaRobotSolid } from 'react-icons/lia'
 import { BiCheckDouble } from 'react-icons/bi'
 import { PiChatCenteredDotsDuotone } from 'react-icons/pi'
+import { MessageContext } from './../../ContextFolder/UseMessageContext'
 
 const Message = ({
     heightValue,

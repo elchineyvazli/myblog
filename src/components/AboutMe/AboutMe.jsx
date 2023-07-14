@@ -12,7 +12,7 @@ const AboutMe = () => {
                     pValue="Buradan baxa bilərsiniz"
                     pColorValue="white"
                     h1ColorValue="white"
-                    textPartBackgroundColor="#0F1321"
+                    textPartBackgroundColor="transparent"
                     borderRadiusValue="40px"
                 />
                 <AboutMeContainer />
